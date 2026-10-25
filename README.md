@@ -6,6 +6,7 @@ My development approach is AI-assisted: coding agents handle detailed code analy
 
 ## Start here
 
+- **[Application documents](application/README.md)** — résumé, cover letter and a two-page project brief (PDF and Word).
 - **[Selected projects and problem-solving](docs/projects.md)** — Luxid, Lincoln School, Haejo and the Assignment Planner.
 - **[Luxid research workflow](samples/luxid-research/README.md)** — a source-derived JavaScript sample with offline tests and a fixture demo.
 - **[Operational rules](samples/operations/README.md)** — a source-derived Python example with repeatable tests.
