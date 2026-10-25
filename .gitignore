@@ -1,0 +1,16 @@
+# Local configuration and runtime data
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+coverage/
+private/
+state/
+*.sqlite*
+*.db
+*.pem
+*.key

@@ -1,0 +1,22 @@
+[
+  {
+    "source": "search/research-contract.mjs",
+    "sourceSha256": "161038470b82c2b6816feca36b50f9376ffeb4c9554a92c201c7e153e1c7bd21",
+    "sampleSha256": "abc0a36a82afd55371133abf2967eb43f8048ee0efc4c79f91f2f695d0071bb7"
+  },
+  {
+    "source": "search/google-extractor.mjs",
+    "sourceSha256": "b05141beaf3f9ee2bbc58df759169b97159f70bef1a4eb3d9bec1154cf86d752",
+    "sampleSha256": "b05141beaf3f9ee2bbc58df759169b97159f70bef1a4eb3d9bec1154cf86d752"
+  },
+  {
+    "source": "tests/research-contract.test.mjs",
+    "sourceSha256": "3ed175d65c04e091aa18000df09cb3e3ee00ebc1f0e7a1a5d599e161a3b40480",
+    "sampleSha256": "b9806ccc3c61b73884b139f9673f691f4bc6a24704c87e0e7cd8547852634d13"
+  },
+  {
+    "source": "tests/google-extractor.test.mjs",
+    "sourceSha256": "3ee846ff98e69da0867e2533b206ec8515a012dbf2c7e063265045cada009b68",
+    "sampleSha256": "3ee846ff98e69da0867e2533b206ec8515a012dbf2c7e063265045cada009b68"
+  }
+]

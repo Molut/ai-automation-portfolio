@@ -1,0 +1,28 @@
+name: Verify portfolio samples
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-samples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: JavaScript tests
+        run: node --test samples/luxid-research/tests/*.test.mjs
+      - name: JavaScript demo
+        run: node samples/luxid-research/demo.mjs
+      - name: Python tests
+        run: python3 -m unittest discover -s samples/operations -p 'test_*.py' -v
+      - name: Python demo
+        run: python3 samples/operations/demo.py

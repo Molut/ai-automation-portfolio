@@ -1,0 +1,8 @@
+{
+  "name": "luxid-research-sample",
+  "private": true,
+  "type": "module",
+  "description": "Offline extracted research contracts and synthetic pipeline demo",
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test", "demo": "node demo.mjs" }
+}
